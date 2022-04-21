@@ -1,0 +1,39 @@
+body
+{
+    display: flex;
+    box-sizing: border-box;
+}
+div
+{
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: fuchsia;
+    transition: width 2s, height 2s, transform 5s;
+    box-shadow: 2px 2px 4px;
+}
+.translate:hover
+{
+    background-color: indigo;
+    width: 200px;
+    height: 200px;
+    transform: translate(100px,100px);
+}
+.rotate:hover
+{
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+.scale:hover
+{
+    background-color:mediumblue;
+    width: 200px;
+    height: 200px;
+    transform:scale(0.5,0.5);
+}
+img{
+    width: inherit;
+    height: inherit;
+}

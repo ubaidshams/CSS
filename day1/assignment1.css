@@ -1,0 +1,21 @@
+[class|="bg"]{
+    background-color: seagreen;
+}
+
+[class^="mid"]
+{
+    background-color: rgba(112, 151, 32, 0.534);
+    color: rgb(27, 54, 2);
+}
+[class$="div"]
+{
+    background-color: rgba(124, 69, 122, 0.342);
+    color: orchid;
+    font-size: xx-large;
+
+}
+[class*="ri"]
+{
+    background-color: rgba(25, 15, 88, 0.527);
+    color: springgreen;
+}

@@ -1,0 +1,26 @@
+div{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    border: 2px solid;
+    /* background-color: lightsalmon; */
+    animation: rotate-bgcolor 4s linear 5s infinite alternate;
+}
+div p{
+    text-align: center;
+    margin-top: 132px;
+}
+@keyframes  rotate-bgcolor{
+    0%{
+        background-color:red ;transform: rotate(30deg);
+    }
+    25%{
+        background-color:blueviolet ;transform: rotate(90deg);
+    }
+    75%{
+        background-color:aqua ;transform: rotate(180deg);
+    }
+    100%{
+        background-color:brown ;transform: rotate(270deg);
+    }
+}

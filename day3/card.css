@@ -1,0 +1,76 @@
+body
+{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background: rgb(8,2,12);
+    background: linear-gradient(90deg, rgba(8,2,12,0.8802871490393032) 0%, rgba(67,77,186,1) 50%, rgba(226,61,61,0.9699230033810399) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.gallery
+{
+    margin: 20px;
+    border: 1px solid;
+    padding: 20px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-card
+{
+    margin: 20px;
+    border: 2px solid white;
+    background-color: white;
+    height: 300px;
+    transition: height 2s linear;
+    overflow: hidden;
+    /* box-shadow: 1px 3px 3px; */
+}
+img
+{
+    width: 400px;
+    height: 300px;
+}
+.image-card p{
+    text-align: center;
+    font-size: 2em;
+    width: auto;
+}
+.image-card p:hover
+{
+    text-shadow: 1px 1px 1px;
+}
+.image-card:hover
+{
+    box-shadow: 5px 5px 10px , -5px -5px 5px;
+    height: 400px;
+}
+.navbar
+{
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 2px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(112, 30, 167);
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+.right
+{
+    float: right;
+}
+a:hover
+{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px;
+}

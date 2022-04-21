@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ul
+{
+    list-style-type: none;
+    background: url("https://cdn.pixabay.com/photo/2021/08/08/10/34/ocean-6530523__340.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    overflow: auto;
+}
+li
+{
+    float: left;
+}
+a
+{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 15px 50px;
+    color:rgb(226, 186, 186);
+    margin-top: 10px;
+}
+.right
+{
+    float: right;
+}
+.active
+{
+    background-color: rgb(18, 1, 27);
+}
+li a:hover:not(.active) {
+    background-color: lightcoral;
+  }
+  #text
+  {
+      margin:20px;
+      width: 50%;
+      max-height: 500px;
+  }
+  #gallery
+  {
+      width: 50%;
+     float: right;
+     max-height: fit-content;
+     animation: rotate 5s linear 0s infinite alternate ;
+  }
+  @keyframes rotate {
+      0%{transform: rotate(30deg);}
+      25%{transform: rotate(60deg);}
+      50%{transform: rotate(90deg);}
+      75%{transform: rotate(180deg);}
+      100%{transform: rotate(360deg);}
+  }

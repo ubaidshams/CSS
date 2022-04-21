@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.navbar
+{
+    overflow: auto;
+    background-color: rgb(3, 3, 3);
+    height: fit-content;
+    position: fixed ;
+    width: 100%;
+}
+.navbar > ul{
+    list-style-type:none ;
+    
+}
+
+li
+{
+    float: left;
+}
+li a{
+    color: floralwhite;
+    text-decoration: none;
+    font-size: larger;
+    padding: 28px;
+    display: block;
+}
+a:hover
+{
+    background-color: lightcoral;
+}
+li a:active
+{
+    background-color: lightskyblue;
+}

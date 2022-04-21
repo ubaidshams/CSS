@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-image: url("/html\ class/wallpaper-joker.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: floralwhite;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #0f0e0e;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(84, 154, 167);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #044caa;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }

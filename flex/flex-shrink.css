@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 800px;
+    height: 100vh;
+    display: flex;
+}
+.card
+{
+    
+    height: 100px;
+    background-color: teal;
+    color: thistle;
+    border: 2px solid;
+    flex: 1;
+}
+.card:nth-of-type(3)
+{
+    flex-shrink:50
+}

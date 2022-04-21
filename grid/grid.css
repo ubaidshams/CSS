@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    background-color: lightpink;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    row-gap: 10px;
+    justify-content: center;
+    column-gap: 10px;
+}
+.grid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategrey;
+    border: 2px solid; 
+}

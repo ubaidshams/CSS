@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left bottom, #e3158a, #cf43a8, #b65ebd, #9b71c9, #8380cc, #6a8ed3, #5699d3, #4ca3cf, #36b1cd, #3cbec4, #5ac9b5, #80d1a5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main
+{
+    display: flex;
+}
+.container
+{
+    margin: 20px;
+    padding: 20px;
+    /* border: solid; */
+    width: 600px;
+    height: 300px;
+    text-align: justify;
+    background-image: linear-gradient(to right bottom, #704f5f, #9a5966, #c0665e, #d97c4c, #e29b33, #e8a53a, #eeaf41, #f4b948, #ffae6a, #fda88a, #eea9a3, #d6adb2);
+}
+.container h1{
+    text-align: center;
+}
+.container:hover
+{
+    box-shadow: 2px 4px 9px 5px;
+}

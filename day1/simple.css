@@ -1,0 +1,8 @@
+div,span{
+    background-color: aquamarine;
+    color: teal;
+    border: 2px dotted blue;
+    margin: 5px;
+    border-radius: 5px;
+    width: fit-content;
+}

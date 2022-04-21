@@ -1,0 +1,22 @@
+*
+{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 50%;
+    margin: auto;
+    height: 50vh;
+    background-color: thistle;
+    display: flex;
+    flex-flow: column wrap;
+}
+.card
+{
+    flex: 1;
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+}

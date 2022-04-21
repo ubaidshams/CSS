@@ -1,0 +1,33 @@
+body{
+    display: flex;
+}
+div{
+    margin: 20px;
+    border: 2px solid;
+    background-color: forestgreen;
+    box-shadow: 2px 2px 5px;
+    width: 200px;
+    height: 200px;
+}
+.translate:hover
+{
+    transform: translate(50px,50px);
+}
+.rotate:hover
+{
+    transform: rotate(30deg);
+}
+.scale:hover
+{
+    transform: scale(0.5,0.5);
+}
+.skew:hover
+{
+    transform: skew(30deg, 45deg);
+}
+.rotate-3d:hover
+{
+    /* transform:rotateX(30deg);
+    transform: rotateY(45deg); */
+    transform: rotateZ(60deg);
+}

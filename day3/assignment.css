@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: auto;
+}
+.container
+{
+    margin: 40px;
+    padding: 20px;
+    text-align: justify;
+    background-image: linear-gradient(to left bottom, #dd7ab2, #d66eb4, #cd64b7, #c25abb, #b551c0, #9765d8, #6b76eb, #0085f6, #00a3f5, #00b7db, #00c6bc, #80d1a5);
+    box-shadow: 1px 2px 5px ;
+    
+}
+
+.container img{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+table
+{
+    border: 1px solid;
+}
+.right
+{
+    margin: 100px 10px;
+}

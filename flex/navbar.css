@@ -1,0 +1,81 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #839fe1, #6ea2de, #5ca5d7, #42a1c6, #339cb3, #32969f, #3b8f8a);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-container
+{
+    width: 100%;
+    height: 70px;
+}
+.navbar
+{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    background-color: thistle;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 8px, 0px 0px 8px;
+}
+.logo
+{
+    display: flex;
+    height: 70px;
+    width: 25%;
+    margin: auto;
+    align-items: center;
+    justify-content: center; 
+}
+.links
+{
+    display: flex;
+    height: 70px;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.auth-block
+{
+    display: flex;
+    height: 70px;
+    width: 25%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+ul
+{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+ul li
+{
+    font-size: 20px;
+}
+a:hover
+{
+    background-color: lightgray;
+}
+a
+{
+    text-decoration: none;
+    color: tomato;
+}
+a i{
+    color:dimgray
+}
+main
+{
+    margin-top: 30px;
+}

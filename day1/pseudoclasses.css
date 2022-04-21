@@ -1,0 +1,28 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: rgba(43, 62, 233, 0.548);
+}
+a:hover{
+    color: darkorange;
+}
+a:active{
+    color: greenyellow;
+}
+input:focus
+{
+    background-color: magenta;
+}
+a{
+    text-decoration: none;
+    color: hotpink;
+    background-color: lightslategray;
+    border-radius: 5px;
+}
+
+img:hover{
+    content: url("/html\ class/wall.jpg");
+    /* height: 400px;
+    width: 600px; */
+}

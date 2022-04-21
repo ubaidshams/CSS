@@ -1,0 +1,10 @@
+p
+{
+    color: rgb(216, 108, 96);
+    text-align: justify;
+    text-shadow: 1px 2px 1px black;
+}
+
+h1{
+    text-shadow: 2px 3px 4px rgba(128, 209, 61, 0.794), 5px 6px 4px rgba(111, 228, 222, 0.794);
+}

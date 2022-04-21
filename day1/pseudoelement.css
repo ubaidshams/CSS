@@ -1,0 +1,29 @@
+p::first-letter
+{
+    color: mediumblue;
+    font-size: x-large;
+}
+p::first-line{
+    background-color: mediumspringgreen;
+}
+ol li::marker{
+    color: mediumseagreen;
+    background-color: midnightblue;
+}
+ul li::marker
+{
+    color: orchid;
+}
+p::selection{
+    background-color: pink;
+    color: purple;
+}
+a[target]{
+    color: seagreen;
+}
+a[target="_blank"]{
+    color: springgreen;
+}
+img:hover{
+    opacity:0.3 ;
+}
